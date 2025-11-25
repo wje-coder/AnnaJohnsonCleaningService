@@ -1,7 +1,6 @@
 # AnnaJohnsonCleaningService
 Building a full web stack that simulates a real cleaning service for Anna Johnson. The client creates accounts, submits cleaning requests with up to five photos at a time, receives and negotiates quotes, and then pays their bill. Anna has a login dashboard where she can manage clients, requests, orders, billing, and monthly reports.
 
-# Features
 # New Client Registeration
 Clients can create an account that includes their name, email, phone number, address, and password. A new username is automatically generated for each client.
 After registering, the client can submit a cleaning request using a service address. They can select the cleaning type (basic, move-out, deep cleaning), number of rooms, preferred date and time, budget, optional notes, and upload up to five photos.
