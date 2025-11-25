@@ -6,10 +6,10 @@ Building a full web stack that simulates a real cleaning service for Anna Johnso
 Clients can create an account that includes their name, email, phone number, address, and password. A new username is automatically generated for each client.
 After registering, the client can submit a cleaning request using a service address. They can select the cleaning type (basic, move-out, deep cleaning), number of rooms, preferred date and time, budget, optional notes, and upload up to five photos.
 
-#Login for exiting clients
+# Login for exiting clients
 Existing clients can view all open requests, quotes, and status updates. They can accept, decline, or negotiate a quote with a note.
 Once the client accepts the order request, a fake billing system is used to simulate payment. The history of the interaction is saved for both the client and the admin. A saved credit card is used for paying the bill.
-#Admin Dashboard
+# Admin Dashboard
 The admin login uses hard-coded credentials:
 Username: anna_johnson
 Password: 2001cleaningserviceAJ
@@ -25,7 +25,7 @@ Once an order is accepted, it becomes an active order and is moved to the Orderi
 The Reports section is separated by type and month. The report types include:
 Frequent clients, Uncommitted clients, Accepted quotes for a given month, Prospective clients, Largest job, Overdue bills, Clients with overdue payments, Clients with no overdue payments, Filtering by month uses the <input type="month"> control.
 
-#Frontend + Backend+ Database Structure
+# Frontend + Backend+ Database Structure
 To create the frontend, an index.html to detectly call back the backend API. For the backend the node.js and express using mysql2 to connect pool. The use of multer to handle clients that need  to upload photos per their request. For passwords bcryptjs for hashing. As for the database MySQL/MariaDB was used with XAMPP and phpMyAdmin was use for tables. 
 
 Each partner was able to build their ow websitie and we went over both to see if each perosn understood the process and understood how to explain each other work using extreme programing to explain each other work. Each student spent 40 hour working on the full stack web development.
