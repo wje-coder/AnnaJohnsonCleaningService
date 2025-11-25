@@ -1,17 +1,31 @@
 # AnnaJohnsonCleaningService
-Building a full web stack that simulates a rela cleaing service fir Anna Johnson. The client create accounts, submits cleang request up to five photos at a tme, recieving and negotating quotes, then paying their bill. Anna has a login dashboard where she would be able to manage clients, request, orders, billing, and monthly reports. 
+Building a full web stack that simulates a real cleaning service for Anna Johnson. The client creates accounts, submits cleaning requests with up to five photos at a time, receives and negotiates quotes, and then pays their bill. Anna has a login dashboard where she can manage clients, requests, orders, billing, and monthly reports.
 
-#Features
-  New Client Registeration
-  Clients are able to create an account that includes thir name, email, phone nmber, address and password. Then a new username is auto-generated for client. The client then will be able to subit a cleaning request using service address. They then will be abel to select the cleaning type (basic, move out, deep cleaning, number of rooms, prefered date and time, budget, optional notes, and uploading maximum of five photos. 
+# Features
+# New Client Registeration
+Clients can create an account that includes their name, email, phone number, address, and password. A new username is automatically generated for each client.
+After registering, the client can submit a cleaning request using a service address. They can select the cleaning type (basic, move-out, deep cleaning), number of rooms, preferred date and time, budget, optional notes, and upload up to five photos.
 
 #Login for exiting clients
-Exisiting clients will be able to vew all open request, quotes, and stats. They will be able to accept, decline, or negotiate with a note. Once Client accepts the request order a fake billing info is used to pay. Histroy of the interaction is saved for both client and admin. For billing a credit card is saved to pay the bill. 
-
+Existing clients can view all open requests, quotes, and status updates. They can accept, decline, or negotiate a quote with a note.
+Once the client accepts the order request, a fake billing system is used to simulate payment. The history of the interaction is saved for both the client and the admin. A saved credit card is used for paying the bill.
 #Admin Dashboard
-Admin login is used for hard-core cordentionals Username:anna_Johnson Password:2001cleaningserviceAJ. 
-The client dashboard dhelps to load clients witht he number of totla jobs completed. on time and late payments, open bills, last three digits of credit card number, and total open amount that is due. A serach bar where clients can be searched by name, username, email, or address. There is another tab for all acrive service request that have not been created into an order. Admin will be able to view client details from, address, rooms, date and time, budget, notes, and photos. Admin will be able to take action by sending quote (price, time, admin note), Accepting erquest, or rejecting request with reason. Once the orer is accepted ot turns into an active order and this is where the Ordering and Billing tab. The order is now there and removed from requested quote section. There is a reportts section tha is seperated by type and month. The different reports that can be displayed is frequent clients, uncommited client, accepted quotes for a given months, prospective clients, largest job, over due bills, clients with over due payments, adn clients with no over des. To filter the data as such using <input type="month"> control was necessary.
+The admin login uses hard-coded credentials:
+Username: anna_johnson
+Password: 2001cleaningserviceAJ
+
+The admin dashboard loads all clients with details such as the number of total jobs completed, on-time and late payments, open bills, last four digits of their saved card, and total amount currently due.
+A search bar allows searching for clients by name, username, email, or address.
+
+There is also a tab for all active service requests that have not yet been converted into orders. The admin can view request details including address, rooms, date and time, budget, notes, and photos.
+The admin can take action by sending a quote (with price, estimated time, and admin note), accepting the request, or rejecting the request with a reason.
+
+Once an order is accepted, it becomes an active order and is moved to the Ordering and Billing tab. It is removed from the requested-quote section.
+
+The Reports section is separated by type and month. The report types include:
+Frequent clients, Uncommitted clients, Accepted quotes for a given month, Prospective clients, Largest job, Overdue bills, Clients with overdue payments, Clients with no overdue payments, Filtering by month uses the <input type="month"> control.
+
 #Frontend + Backend+ Database Structure
-TO create the frontend, an index.html to detectly call back the backend API. For the backend the node.js and express using mysql2 to connect pool. The use of multer to handle clients that need  to upload photos per their request. For passwords bcryptjs for hashing. As for the database MySQL/MariaDB was used with XAMPP and phpMyAdmin was use for tables. 
+To create the frontend, an index.html to detectly call back the backend API. For the backend the node.js and express using mysql2 to connect pool. The use of multer to handle clients that need  to upload photos per their request. For passwords bcryptjs for hashing. As for the database MySQL/MariaDB was used with XAMPP and phpMyAdmin was use for tables. 
 
-
+Each partner was able to build their ow websitie and we went over both to see if each perosn understood the process and understood how to explain each other work using extreme programing to explain each other work. Each student spent 40 hour working on the full stack web development.
