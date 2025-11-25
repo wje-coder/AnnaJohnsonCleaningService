@@ -28,3 +28,5 @@ Frequent clients, Uncommitted clients, Accepted quotes for a given month, Prospe
 To create the frontend, an index.html to detectly call back the backend API. For the backend the node.js and express using mysql2 to connect pool. The use of multer to handle clients that need  to upload photos per their request. For passwords bcryptjs for hashing. As for the database MySQL/MariaDB was used with XAMPP and phpMyAdmin was use for tables. 
 
 Each partner was able to build their ow websitie and we went over both to see if each perosn understood the process and understood how to explain each other work using extreme programing to explain each other work. Each student spent 40 hour working on the full stack web development.
+# Video explain project in detail
+https://youtu.be/-v4XCcUHsmg 
