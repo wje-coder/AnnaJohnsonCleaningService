@@ -29,4 +29,4 @@ To create the frontend, an index.html to detectly call back the backend API. For
 
 Each partner was able to build their ow websitie and we went over both to see if each perosn understood the process and understood how to explain each other work using extreme programing to explain each other work. Each student spent 40 hour working on the full stack web development.
 # Video explain project in detail
-https://youtu.be/-v4XCcUHsmg 
+(https://drive.google.com/file/d/1awShJ9KI6L_zzqwZSFE4LwSF6Fk-qCeP/view?usp=sharing)
